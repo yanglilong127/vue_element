@@ -14,4 +14,4 @@ vue + vuex + elementUI + vuex-router + axios  + nodejs + mysql + ORM框架:reque
 
 
 #### 主页
-[项目主页](./index.png)
+![项目主页](https://raw.githubusercontent.com/yanglilong127/vue_element/master/index.png)
