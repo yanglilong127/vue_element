@@ -5,7 +5,7 @@ import Login from '../page/login.vue';
 import Nopage from '../page/404.vue';
 import Home from '../page/home.vue';
 import { Index,FundPosition,typePosition,incomePayPosition,infoShow,userList,
-    qrCode} from '../layout/';
+    qrCode,fundList} from '../layout/';
 
 
 Vue.use(VueRouter);
@@ -56,6 +56,10 @@ const router = new VueRouter({
                     path: '/index/qrCode',
                     name: '通讯二维码',
                     component: qrCode
+                },{
+                    path: '/index/fundList',
+                    name: '资金流水',
+                    component: fundList
                 }
             ]
         }

@@ -72,7 +72,14 @@ module.exports = {
 				to: './libs/js/',
 				flatten: true
 			}
-		])
+		]),
+		/**压缩*
+		new webpack.optimize.UglifyJsPlugin({
+			sourceMap:true,
+			compress:{
+				warnings:false
+			}
+		}),**/
 	],
 	devServer: {
 		contentBase: __dirname+ '/web/dist'

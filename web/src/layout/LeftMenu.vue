@@ -79,16 +79,9 @@ export default {
                     },
 					{path:'/index/fundManage',name:'资金管理',icon:'icon_vue-zijinguanli',
 						children:[
-							{path:'/index/fundList',name:'资金流水'},
-							{path:'/index/payList',name:'支付单据'}
+							{path:'/index/fundList',name:'资金流水'}
 						]
 			        },
-					{path:'/index/touziManage',name:'投资管理',icon:'icon_vue-touziguanli',
-						children:[
-							{path:'/index/chinaTouziList',name:'省份投资'},
-							{path:'/index/chinaTabsList',name:'区域投资'}
-						]
-                    },
                     {path:'/index/fundArticle',name:'金融文章',icon:'icon_vue-wenzhang',
 						children:[
 							{path:'/index/createFundArticle',name:'发布文章'},
