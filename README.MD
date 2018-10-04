@@ -5,7 +5,7 @@ vue + vuex + elementUI + vuex-router + axios(qs) + less
  nodejs + express + mysql + ORM框架:sequelize
 
 ### 项目介绍
-
+[项目演示地址](https://www.burtyang.top:8001/)
 
 
 ## 项目运行
