@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 //控制器
-const { user,Util } = require(path.join(__dirname,'../../constrollers'));
+const { user,Util,fundFlow } = require(path.join(__dirname,'../../constrollers'));
 
 module.exports = function(){
     var router = express.Router();
@@ -14,6 +14,11 @@ module.exports = function(){
     .get('/users/info', user.getUserInfo)
 
     .get('/getip', Util.getip)
+
+    .get('/fund/getFundFlow', fundFlow.getFundFlow)
+    .post('/fund/addSingleData', fundFlow.addSingleData)
+    .post('/fund/updateData', fundFlow.updateData)
+    .post('/fund/deleteSingleData', fundFlow.deleteSingleData)
 
     return router;
 }

@@ -9,10 +9,10 @@ module.exports = {
 	    host:'localhost',
 	    user:'root',
 	    password:'123456',
-	    database:'vue_elementUI',
+	    database:'vue_elementui',
 	    //queueLimit:8 // 队伍中等待连接的最大数量，0为不限制。默认为0
 	}),
-	db: new Sequelize('vue_elementUI', 'root', '123456', {
+	db: new Sequelize('vue_elementui', 'root', '123456', {
 		host: 'localhost', // 数据库地址
 		dialect: 'mysql', // 指定连接的数据库类型
 		pool: {
@@ -21,6 +21,7 @@ module.exports = {
 		    acquire: 30000,
 		    idle: 1000 // 如果一个线程 1 秒钟内没有被使用过的话，那么就释放线程
 		},
+		timezone: '+08:00', //东八区
 		operatorsAliases:{
 		    $eq: Op.eq,
 	            $ne: Op.ne,

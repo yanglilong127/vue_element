@@ -82,13 +82,13 @@ export default {
 							{path:'/index/fundList',name:'资金流水'}
 						]
 			        },
-                    {path:'/index/fundArticle',name:'金融文章',icon:'icon_vue-wenzhang',
+                    /* {path:'/index/fundArticle',name:'金融文章',icon:'icon_vue-wenzhang',
 						children:[
 							{path:'/index/createFundArticle',name:'发布文章'},
 							{path:'/index/modifyFundArticle',name:'编辑文章'},
 							{path:'/index/showFundArticle',name:'查看文章'}
 						]
-			        }
+			        } */
                 ]
 			}
 		},

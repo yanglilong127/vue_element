@@ -1,4 +1,5 @@
 module.exports = {
     user: require('./user'),
-    Util: require('./util')
+    Util: require('./util'),
+    fundFlow: require('./fundFlow')
 }
