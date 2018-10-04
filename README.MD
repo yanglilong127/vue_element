@@ -31,6 +31,7 @@ vue + vuex + elementUI + vuex-router + axios(qs) + less
 
 
 ### 目录结构 
+```
 |-- backstage              //node服务端文件夹
 |   |-- constrollers       //控制器
 |   |-- deal_table         //对表操作
@@ -43,3 +44,4 @@ vue + vuex + elementUI + vuex-router + axios(qs) + less
 ├-- .gitignore             // git 忽略项
 ├-- package.json           // 包依赖配置
 |-- README.md              // 说明文件
+```
